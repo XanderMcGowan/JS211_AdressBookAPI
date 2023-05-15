@@ -1,0 +1,21 @@
+body {
+    text-align: center;
+}
+
+h3 {
+    font-size: 3vw;
+    margin: 5vh;
+}
+
+.users {
+    white-space: pre;
+    /* border: 1px solid red; */
+    height: 10vh;
+}
+
+.main {
+    margin-top: 15vh;
+    display: flex;
+    justify-content: space-around;
+
+}

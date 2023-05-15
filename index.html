@@ -1,15 +1,47 @@
+<!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <link rel="stylesheet" href="./reset.css">
-    <script src="./main.js" defer></script>
-    <title>Address Book</title>
-</head>
-<body>
-    <button onclick="fetchRandomUser()">fetch</button>
-    <button onclick="logUserArr()">console log</button>
-    <button>store</button>
-</body>
+    <link rel="stylesheet" href="./style.css">
+    <title>Fetch Practice</title>
+  </head>
+  <body>
+    <h3>All Users</h3>
+    <div class="main">
+      <div class="users">
+        <div id="img0"></div>
+        <ul id="user0"></ul>
+        <button id="button0" onclick="getInfo('0')">more info</button>
+        <div id="more-info0"></div>
+      </div>
+      <div class="users">
+        <div id="img1"></div>
+        <ul id="user1"></ul>
+        <button id="button1" onclick="getInfo('1')">more info</button>
+        <div id="more-info1"></div>
+      </div>
+      <div class="users">
+        <div id="img2"></div>
+        <ul id="user2"></ul>
+        <button id="button2" onclick="getInfo('2')">more info</button>
+        <div id="more-info2"></div>
+      </div>
+      <div class="users">
+        <div id="img3"></div>
+        <ul id="user3"></ul>
+        <button id="button3" onclick="getInfo('3')">more info</button>
+        <div id="more-info3"></div>
+      </div>
+      <div class="users">
+        <div id="img4"></div>
+        <ul id="user4"></ul>
+        <button id="button4" onclick="getInfo('4')">more info</button>
+        <div id="more-info4"></div>
+      </div>
+    </div>
+    <script src="./main.js"></script>
+  </body>
 </html>
